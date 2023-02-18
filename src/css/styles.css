@@ -1,0 +1,237 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    position: relative;
+}
+
+nav {
+    height: 53px;
+    background-color:#212121;;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    background-color: rgba( 0, 0, 0, .6);
+    height: 84px;
+}
+
+.subheader .subheader_logo {
+    display: block;
+    max-width: 100%;
+    margin-top: 16px;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    font-weight: 100;
+    font-size: 13px;
+    color:#FFFFFF;
+}
+
+.subheader .subheader_call {
+    font-weight: 300;
+    font-size: 12px;
+    color:#FFFFFF;
+    margin-top: 19px;
+    text-align: right;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    font-weight: 400;
+    font-size: 22px;
+    color:#FFFFFF;
+    margin-top: 8px;
+    line-height: 12px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.subheader .subheader_btn {
+    margin-top: 18px;
+    position: absolute;
+    width: 172px;
+    height: 46px;
+    border: none;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.promo {
+    min-height: 800px;
+    background: url(../img/top_bg.jpg) center center/cover no-repeat;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+    color:#FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+}
+
+.promo .promo_subheader {
+    color:#FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    border:none;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.advantages .advantages_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 116px;
+    height: 116px;
+    background-color:#1EACC7;
+    border-radius: 100%;
+}
+
+.advantages .advantages_header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    width: 113px;
+    height: 24px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.advantages .eight_points_to_work {
+    display: block;
+    margin: 32px auto 0px auto;
+    font-weight: 700;
+    font-size: 38px;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.advantages .advantage_descr {
+    margin-left: 25px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+.advantages .all_advantages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.advantages h3 {
+    font-weight: 400;
+    font-size: 17px;
+    color: #1EACC7;
+}
+
+.advantages .first_advantage {
+    margin-top: 16px;
+}
+
+.advantages .fifth_advantage {
+    margin-top: 16px;
+}
+
+.possibilities .possibilities_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 110px 0 0 0;
+    width: 115px;
+    height: 27px;
+    background-color: #000000;
+    font-weight: 400;
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+.possibilities .possibilities_subheader {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 38px;
+    color: #222222;
+    margin: 32px 0 0 0;
+}
+
+.possibilities .subheader_descr {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 17px;
+    color: #222222;
+    margin-top: 1px;
+}
